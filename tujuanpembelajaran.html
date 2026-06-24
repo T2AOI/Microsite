@@ -1,202 +1,77 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Materi - Berpikir Komputasional</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tujuan Pembelajaran</title>
+    <link rel="stylesheet" href="style.css">
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
-}
-
-body{
-    background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
-    min-height:100vh;
-    padding:40px;
+    body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:40px;
 }
 
 .container{
-    max-width:1100px;
+    max-width:800px;
     margin:auto;
+    background:#ffffff;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
-.header{
-    text-align:center;
-    margin-bottom:35px;
-}
-
-.header h1{
-    color:white;
-    font-size:38px;
-    margin-bottom:10px;
-}
-
-.header p{
-    color:#dbeafe;
-    font-size:18px;
-}
-
-.card{
-    background:rgba(255,255,255,.12);
-    backdrop-filter:blur(15px);
-    border:1px solid rgba(255,255,255,.2);
-    border-radius:20px;
-    padding:30px;
-    margin-bottom:30px;
-    box-shadow:0 15px 30px rgba(0,0,0,.2);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
-}
-
-.card h2{
-    color:#fff;
-    margin-bottom:18px;
-    font-size:28px;
-    border-left:6px solid #38bdf8;
-    padding-left:15px;
-}
-
-.card p{
-    color:#f8fafc;
-    font-size:17px;
-    line-height:1.8;
-}
-
-.list{
-    margin-top:20px;
-}
-
-.list li{
-    list-style:none;
-    background:white;
-    color:#1e293b;
+h2{
+    color:#0d6efd;
     margin-bottom:15px;
-    padding:18px;
-    border-radius:12px;
-    box-shadow:0 8px 15px rgba(0,0,0,.08);
-    transition:.3s;
 }
 
-.list li:hover{
-    transform:translateX(8px);
+p{
+    margin-bottom:15px;
 }
 
-.number{
-    display:inline-flex;
-    justify-content:center;
-    align-items:center;
-    width:35px;
-    height:35px;
-    border-radius:50%;
-    background:#2563eb;
-    color:white;
-    font-weight:bold;
-    margin-right:10px;
+ol{
+    padding-left:20px;
 }
 
-.highlight{
-    color:#38bdf8;
-    font-weight:bold;
+ol li{
+    margin-bottom:12px;
+    line-height:1.6;
 }
 
-.footer{
-    text-align:center;
-    color:white;
-    margin-top:20px;
-    opacity:.8;
+ul{
+    margin-top:8px;
+    padding-left:20px;
 }
 
-@media(max-width:768px){
-
-.header h1{
-    font-size:28px;
-}
-
-.card{
-    padding:20px;
-}
-
-.card h2{
-    font-size:22px;
-}
-
-.list li{
-    font-size:15px;
-}
-
+ul li{
+    margin-bottom:6px;
 }
 </style>
-
 </head>
 <body>
 
 <div class="container">
+    <h2>Tujuan Pembelajaran</h2>
 
-    <div class="header">
-        <h1>Materi Pembelajaran</h1>
-        <p>Berpikir Komputasional (Computational Thinking)</p>
-    </div>
+    <p>Setelah mengikuti pembelajaran, peserta didik diharapkan mampu:</p>
 
-    <!-- CP -->
-    <div class="card">
-        <h2>Capaian Pembelajaran (CP)</h2>
-
-        <p>
-            Pada akhir <span class="highlight">Fase E</span>, peserta didik mampu
-            menerapkan strategi algoritmik standar untuk menghasilkan beberapa solusi
-            persoalan dengan data diskrit bervolume tidak komprehensif pada kehidupan
-            sehari-hari maupun dalam mengimplementasikan program komputer.
-        </p>
-    </div>
-
-    <!-- ATP -->
-    <div class="card">
-
-        <h2>Alur Tujuan Pembelajaran (ATP)</h2>
-
-        <ul class="list">
-
-            <li>
-                <span class="number">1</span>
-                Siswa mampu menjelaskan konsep
-                <strong>Berpikir Komputasional</strong> beserta empat pilar utamanya,
-                yaitu <strong>Dekomposisi</strong>,
-                <strong>Pengenalan Pola</strong>,
-                <strong>Abstraksi</strong>, dan
-                <strong>Algoritma</strong>.
-            </li>
-
-            <li>
-                <span class="number">2</span>
-                Siswa mampu menerapkan empat pilar
-                <strong>Berpikir Komputasional</strong>
-                untuk menyelesaikan studi kasus nyata
-                di bidang teknologi dan infrastruktur IT.
-            </li>
-
-            <li>
-                <span class="number">3</span>
-                Siswa mampu menyusun algoritma secara runtut,
-                baik dalam bentuk langkah-langkah teks maupun
-                <strong>Flowchart</strong>,
-                sebagai solusi dari suatu permasalahan yang terstruktur.
-            </li>
-
-        </ul>
-
-    </div>
-
-    <div class="footer">
-        Informatika Kelas X SMK • Berpikir Komputasional
-    </div>
-
+    <ol>
+        <li>Menjelaskan pengertian berpikir komputasional dengan benar.</li>
+        <li>Mengidentifikasi manfaat berpikir komputasional dalam kehidupan sehari-hari.</li>
+        <li>
+            Menjelaskan empat pilar berpikir komputasional, yaitu:
+            <ul>
+                <li>Dekomposisi (Decomposition)</li>
+                <li>Pengenalan Pola (Pattern Recognition)</li>
+                <li>Abstraksi (Abstraction)</li>
+                <li>Perancangan Algoritma (Algorithm Design)</li>
+            </ul>
+        </li>
+        <li>Menerapkan keempat pilar tersebut untuk menyelesaikan masalah sederhana.</li>
+        <li>Menyusun langkah-langkah penyelesaian masalah secara logis dan sistematis.</li>
+    </ol>
 </div>
 
 </body>
