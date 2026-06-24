@@ -1,77 +1,141 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tujuan Pembelajaran</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tujuan Pembelajaran</title>
 
 <style>
-    body{
-    font-family: Arial, sans-serif;
-    background:#f4f6f9;
-    margin:40px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    padding:40px;
 }
 
 .container{
-    max-width:800px;
+    max-width:850px;
     margin:auto;
-    background:#ffffff;
+    background:#1e293b;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+.header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
     padding:25px;
-    border-radius:8px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
 
-h2{
-    color:#0d6efd;
+.header h1{
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.header p{
+    color:#dbeafe;
+}
+
+.content{
+    padding:30px;
+    color:#e2e8f0;
+}
+
+.content p{
+    margin-bottom:20px;
+    line-height:1.7;
+}
+
+.card{
+    background:#334155;
+    border-left:6px solid #38bdf8;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card h3{
+    color:#7dd3fc;
     margin-bottom:15px;
 }
 
-p{
-    margin-bottom:15px;
-}
-
-ol{
+.card ul{
     padding-left:20px;
 }
 
-ol li{
-    margin-bottom:12px;
-    line-height:1.6;
+.card li{
+    margin:10px 0;
+    line-height:1.7;
+    color:#f1f5f9;
 }
 
-ul{
-    margin-top:8px;
-    padding-left:20px;
+.sub-list{
+    margin-top:10px;
 }
 
-ul li{
-    margin-bottom:6px;
+.footer{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:12px;
+    font-size:14px;
 }
 </style>
+
 </head>
 <body>
 
 <div class="container">
-    <h2>Tujuan Pembelajaran</h2>
 
-    <p>Setelah mengikuti pembelajaran, peserta didik diharapkan mampu:</p>
+    <div class="header">
+        <h1>📘 Tujuan Pembelajaran</h1>
+        <p>Materi Berpikir Komputasional</p>
+    </div>
 
-    <ol>
-        <li>Menjelaskan pengertian berpikir komputasional dengan benar.</li>
-        <li>Mengidentifikasi manfaat berpikir komputasional dalam kehidupan sehari-hari.</li>
-        <li>
-            Menjelaskan empat pilar berpikir komputasional, yaitu:
+    <div class="content">
+
+        <p>
+            Setelah mengikuti pembelajaran, peserta didik diharapkan mampu:
+        </p>
+
+        <div class="card">
+            <h3>Tujuan Pembelajaran</h3>
+
             <ul>
-                <li>Dekomposisi (Decomposition)</li>
-                <li>Pengenalan Pola (Pattern Recognition)</li>
-                <li>Abstraksi (Abstraction)</li>
-                <li>Perancangan Algoritma (Algorithm Design)</li>
+                <li>Menjelaskan pengertian berpikir komputasional dengan benar.</li>
+
+                <li>Mengidentifikasi manfaat berpikir komputasional dalam kehidupan sehari-hari.</li>
+
+                <li>
+                    Menjelaskan empat pilar berpikir komputasional:
+                    <ul class="sub-list">
+                        <li>Dekomposisi (Decomposition)</li>
+                        <li>Pengenalan Pola (Pattern Recognition)</li>
+                        <li>Abstraksi (Abstraction)</li>
+                        <li>Perancangan Algoritma (Algorithm Design)</li>
+                    </ul>
+                </li>
+
+                <li>Menerapkan keempat pilar tersebut untuk menyelesaikan masalah sederhana.</li>
+
+                <li>Menyusun langkah-langkah penyelesaian masalah secara logis dan sistematis.</li>
+
             </ul>
-        </li>
-        <li>Menerapkan keempat pilar tersebut untuk menyelesaikan masalah sederhana.</li>
-        <li>Menyusun langkah-langkah penyelesaian masalah secara logis dan sistematis.</li>
-    </ol>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Informatika Kelas X SMK
+    </div>
+
 </div>
 
 </body>
