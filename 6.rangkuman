@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rangkuman</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    padding:40px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:#1e293b;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+.header{
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+}
+
+.header h1{
+    font-size:30px;
+}
+
+.header p{
+    color:#dbeafe;
+    margin-top:5px;
+}
+
+.content{
+    padding:30px;
+}
+
+.card{
+    background:#334155;
+    border-left:6px solid #38bdf8;
+    border-radius:10px;
+    padding:20px;
+    color:#f8fafc;
+}
+
+.card p{
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.card ul{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.card li{
+    margin:10px 0;
+    line-height:1.7;
+}
+
+.note{
+    background:#1d4ed8;
+    border-radius:8px;
+    padding:15px;
+    margin-top:20px;
+    color:#fff;
+}
+
+.footer{
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    padding:12px;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>📋 Rangkuman</h1>
+        <p>Berpikir Komputasional</p>
+    </div>
+
+    <div class="content">
+
+        <div class="card">
+
+            <p>
+                Berpikir komputasional adalah cara menyelesaikan masalah secara
+                <strong>logis, sistematis, dan efisien</strong>.
+            </p>
+
+            <p>
+                Berpikir komputasional tidak hanya digunakan dalam dunia komputer,
+                tetapi juga dapat diterapkan dalam berbagai aktivitas kehidupan sehari-hari.
+            </p>
+
+            <p><strong>Empat pilar utama berpikir komputasional:</strong></p>
+
+            <ul>
+                <li><strong>Dekomposisi</strong> → Memecah masalah besar menjadi bagian-bagian kecil.</li>
+                <li><strong>Pengenalan Pola</strong> → Mencari kesamaan atau pola dari beberapa masalah.</li>
+                <li><strong>Abstraksi</strong> → Memilih informasi yang penting dan mengabaikan yang tidak relevan.</li>
+                <li><strong>Perancangan Algoritma</strong> → Menyusun langkah-langkah penyelesaian masalah secara runtut.</li>
+            </ul>
+
+            <div class="note">
+                <strong>Kesimpulan:</strong><br><br>
+                Dengan menerapkan keempat pilar tersebut, penyelesaian masalah menjadi
+                lebih mudah, terstruktur, dan efektif. Kemampuan berpikir komputasional
+                juga menjadi dasar penting dalam mempelajari pemrograman serta menghadapi
+                berbagai tantangan di era digital.
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Informatika Kelas X SMK
+    </div>
+
+</div>
+
+</body>
+</html>
